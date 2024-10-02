@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "name": "Monitor & Led Tv",
+        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "image": "https://i.ibb.co.com/Vm5KLkP/home-20-categories-1-3-170x-1.jpg",
+        "category": "Electronics",
+        "price": 14.7,
+        "discountPrice": 13.2
+    },
+    {
+        "id": 2,
+        "name": "Mobile",
+        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "image": "https://i.ibb.co.com/7y1dCb9/home-20-categories-1-1-170x-1.jpg",
+        "category": "Electronics",
+        "price": 145.7,
+        "discountPrice": 13.2
+    },
+    {
+        "id": 3,
+        "name": "Computers",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "https://i.ibb.co.com/W2MZfLV/home-20-categories-1-4-170x.jpg",
+        "category": "Electronics",
+        "price": 14.5,
+        "discountPrice": 13.0
+    },
+    {
+        "id": 4,
+        "name": "Laptops",
+        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "image": "https://i.ibb.co.com/B2m739F/home-20-categories-1-2-170x-1.jpg",
+        "category": "Electronics",
+        "price": 111.5,
+        "discountPrice": 11.0
+    },
+    {
+        "id": 5,
+        "name": "Smart Tv And LED TV",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "https://i.ibb.co.com/Vm5KLkP/home-20-categories-1-3-170x-1.jpg",
+        "category": "Electronics",
+        "price": 14.5,
+        "discountPrice": 13.0
+    },
+    {
+        "id": 6,
+        "name": "Laptops",
+        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "image": "https://i.ibb.co.com/B2m739F/home-20-categories-1-2-170x-1.jpg",
+        "category": "Electronics",
+        "price": 133.5,
+        "discountPrice": 11.0
+    },
+    {
+        "id": 7,
+        "name": "Smart Phone",
+        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "image": "https://i.ibb.co.com/7y1dCb9/home-20-categories-1-1-170x-1.jpg",
+        "category": "Electronics",
+        "price": 111.5,
+        "discountPrice": 11.0
+    },
+    {
+        "id": 8,
+        "name": "Speeker",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/R66V2Fn/home-20-categories-1-5-170x.jpg",
+        "category": "Electronics",
+        "price": 22.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 9,
+        "name": "Games & Sports",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/GVd49sF/home-20-categories-1-6-170x.jpg",
+        "category": "Sports",
+        "price": 41.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 10,
+        "name": "Shose",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/tsWQs3C/image.png",
+        "category": "Clothings",
+        "price": 53.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 11,
+        "name": "Shose",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/HzXsJCm/image.png",
+        "category": "Clothings",
+        "price": 34.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 12,
+        "name": "T-Shirt",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/sjwbHbL/image.png",
+        "category": "Clothings",
+        "price": 62.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 13,
+        "name": "Jacket",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/YTjcCgq/image.png",
+        "category": "Clothings",
+        "price": 52.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 14,
+        "name": "Sofa Set",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/dPqbPXV/image-125-removebg-preview-1.png",
+        "category": "Furnitures",
+        "price": 22.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 15,
+        "name": "Umberella",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/5cML8jp/G03-200x200-5.jpg",
+        "category": "Furnitures",
+        "price": 32.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 16,
+        "name": "Hulsta",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/N19fB93/G03-200x200-4.jpg",
+        "category": "Furnitures",
+        "price": 172.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 17,
+        "name": "Table",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/60B803Q/G03-200x200-3.jpg",
+        "category": "Furnitures",
+        "price": 152.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 18,
+        "name": "Chair Set",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/F7Byt9k/G03-200x200-2.jpg",
+        "category": "Furnitures",
+        "price": 142.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 19,
+        "name": "Bed Set",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/bdCWfxb/G03-200x200-1.jpg",
+        "category": "Furnitures",
+        "price": 121.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 20,
+        "name": "Bed Set",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/zNvbnQJ/G03-200x200.jpg",
+        "category": "Furnitures",
+        "price": 112.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 21,
+        "name": "Glass Cooking Pot",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/YTrdmj4/G03-200x200-10.jpg",
+        "category": "Kids&Kitchen",
+        "price": 172.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 22,
+        "name": "Frok Steel",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/JmBthmQ/G03-200x200-9.jpg",
+        "category": "Kids&Kitchen",
+        "price": 122.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 23,
+        "name": "Gash Stove",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/CtGVg2N/G03-200x200-8.jpg",
+        "category": "Kids&Kitchen",
+        "price": 162.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 24,
+        "name": "Bulldozer Toy",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/1nBHyrD/G07-200x200.jpg",
+        "category": "Kids&Kitchen",
+        "price": 122.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 25,
+        "name": "Tricycle Red",
+        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "image": "https://i.ibb.co.com/84qgTZM/G03-200x200-7.jpg",
+        "category": "Kids&Kitchen",
+        "price": 124.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 26,
+        "name": " Ring Diamonds 14K White Gold",
+        "recipe": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac",
+        "image": "https://i.ibb.co/18VSmdH/featured1.jpg",
+        "category": "Jewelry",
+        "price": 42.9,
+        "discountPrice": 11.5
+    },
+    {
+        "id": 27,
+        "name": "Pendant koket Girls",
+        "recipe": "Habitant morbi tristique senectus et netus et malesuada fames ac",
+        "image": "https://i.ibb.co/592Y2bb/featured4.jpg",
+        "category": "Jewelry",
+        "price": 22.9,
+        "discountPrice": 11.5
+    }
+]
