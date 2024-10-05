@@ -1,15 +1,17 @@
+import { useContext } from "react";
 import { GiSelfLove } from "react-icons/gi";
 
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import { AuthContext } from "../provider/AuthProvider";
 
 const ProductCard = ({ product }) => {
+    const { user } = useContext(AuthContext);
 
     const navigate = useNavigate();
 
     const { name, price, image, discountPrice, category, id } = product;
 
-    const user = true;
     const handlaeAddToCart = () => {
         if (user) {
             ({
