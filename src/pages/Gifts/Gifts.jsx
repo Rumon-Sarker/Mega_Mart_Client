@@ -54,7 +54,7 @@ const Gifts = () => {
 
     return (
         <div className="container pt-40 mx-auto p-8">
-            <h1 className="text-2xl font-bold mb-4">Gift Cart</h1>
+            <h1 className="text-2xl font-bold mb-4">Gift Cart Items</h1>
 
             {cartItems.length === 0 ? (
                 <p className="text-gray-500">Your cart is empty.</p>
