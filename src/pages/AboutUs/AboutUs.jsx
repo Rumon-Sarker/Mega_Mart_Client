@@ -23,7 +23,7 @@ const AboutUs = () => {
                         <div className="md:w-1/2 md:pl-12 pt-12">
                             <h1 className="text-xl font-bold">Welcome,</h1>
                             <p className="text-lg mb-6">
-                                At MegaMart, we believe in quality, innovation, and customer satisfaction. Founded in 2024, our journey began with a mission to create a seamless online shopping experience.
+                                We believe in quality, innovation, and customer satisfaction. Founded in 2024, our journey began with a mission to create a seamless online shopping experience.
                             </p>
                             <p className="text-lg mb-6">
                                 From sourcing the best materials to delivering them to your doorstep, we ensure every step of the process is perfect. Our team is dedicated to curating collections that resonate with your style and needs.
