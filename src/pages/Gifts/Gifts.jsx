@@ -57,7 +57,7 @@ const Gifts = () => {
             <h1 className="text-2xl font-bold mb-4">Gift Cart Items</h1>
 
             {cartItems.length === 0 ? (
-                <p className="text-gray-500">Your cart is empty.</p>
+                <p className="text-gray-500">Oh sorry !! Your cart is empty.</p>
             ) : (
                 <div className="flex flex-col space-y-4">
                     {cartItems.map(item => (
