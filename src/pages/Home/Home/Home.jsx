@@ -17,12 +17,12 @@ const Home = () => {
         <section className="pt-40 bg-stone-50">
             <Banner />
             <ShopbyCategories />
-            {/* <div className="container flex justify-between mx-auto my-12">
+            <div className="container flex-row justify-between mx-auto my-12 lg:flex-col md:flex-col lgl:flex-row">
                 <NewProducts />
                 <FeaturedProducts />
             </div>
             <Brands />
-            <CurrentTopSells />
+            {/* <CurrentTopSells />
 
             <Clothings />
             <Furnitures />
