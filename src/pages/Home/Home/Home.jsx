@@ -16,8 +16,8 @@ const Home = () => {
     return (
         <section className="pt-40 bg-stone-50">
             <Banner />
-            <ShopbyCategories />
-            <div className="flex container mx-auto justify-between my-12">
+            {/* <ShopbyCategories /> */}
+            {/* <div className="container flex justify-between mx-auto my-12">
                 <NewProducts />
                 <FeaturedProducts />
             </div>
@@ -30,7 +30,7 @@ const Home = () => {
             <Kids />
             <Recommended />
             <HomeDescText />
-            <WhyShop />
+            <WhyShop /> */}
 
 
         </section>

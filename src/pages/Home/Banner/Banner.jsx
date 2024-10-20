@@ -20,12 +20,12 @@ const Banner = () => {
     const styles = "flex flex-col gap-1 border-b pb-2 hover:text-orange-500 transition-colors duration-300 items-center text-center";
 
     return (
-        <section className="mx-auto container">
-            <div className="flex flex-row justify-center gap-4 items-center mx-auto">
+        <section className="container mx-auto">
+            <div className="flex items-center justify-center gap-4 mx-auto lg:flex-row lgl:flex-row md:flex-col sm:flex-col">
                 {/* category  */}
-                <div className="w-96 shadow-xl p-4">
-                    <h1 className=" w-72 text-xl font-bold rounded-t-lg p-3 text-white bg-orange-500">SHOP BY CATEGORIES</h1>
-                    <div className="grid grid-cols-2 gap-3 border-t-4 border-orange-500  text-gray-700 p-6 ">
+                <div className="p-4 shadow-xl lg:w-96 lgl:w-96 md:w-full sm:w-full">
+                    <h1 className="p-3 text-xl font-bold text-white bg-orange-500 rounded-t-lg w-72">SHOP BY CATEGORIES</h1>
+                    <div className="grid grid-cols-2 gap-3 p-6 text-gray-700 border-t-4 border-orange-500 ">
 
                         <Link to={'/shop'} className={`${styles}`}><FaTv className="text-3xl" /> Electronics </Link>
                         <Link to={'/shop'} className={`${styles}`}><PiTShirtThin className="text-3xl" /> Clothing / Shoes </Link>
@@ -41,17 +41,19 @@ const Banner = () => {
                     </div>
                 </div>
                 {/* banner  */}
-                <div>
-                    <Link><img src={bannerImg1} alt="Bannder img" /></Link>
-                </div>
-                {/* Discount Img  */}
-                <div>
-                    <Link><img src={bannerImg2} alt="discount" /></Link>
-                    <Link><img src={bannerImg3} alt="discount" /></Link>
-                </div>
-                <div>
-                    <Link><img src={bannerImg4} alt="discount" /></Link>
-                    <Link><img src={bannerImg5} alt="discount" /></Link>
+                <div className="flex items-center gap-2">
+                    <div className="">
+                        <Link><img src={bannerImg1} alt="Bannder img" /></Link>
+                    </div>
+                    {/* Discount Img  */}
+                    <div >
+                        <Link><img src={bannerImg2} alt="discount" /></Link>
+                        <Link><img src={bannerImg3} alt="discount" /></Link>
+                    </div>
+                    <div >
+                        <Link><img src={bannerImg4} alt="discount" /></Link>
+                        <Link><img src={bannerImg5} alt="discount" /></Link>
+                    </div>
                 </div>
             </div>
             {/* new customer offer  */}

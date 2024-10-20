@@ -6,7 +6,7 @@ import logo from "../../assets/logo.png"
 const Navbar = () => {
 
     return (
-        <section className={`navbar  z-30 mt-20 w-full shadow-xl bg-white `}>
+        <section className={`navbar  z-30 pt-20 w-full shadow-xl bg-white `}>
             <div className="container flex justify-between mx-auto">
                 <div className="flex navbar-start">
                     <div className="dropdown">
@@ -34,7 +34,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to={"/"}>
-                        <img className="w-12 lg:w-24 mdl:w-16 md:w-20" src={logo} alt="" />
+                        <img className="w-12 lg:w-16 mdl:w-16 md:w-12" src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="hidden navbar-center lg:flex">
