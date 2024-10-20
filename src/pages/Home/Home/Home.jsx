@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <section className="pt-40 bg-stone-50">
             <Banner />
-            {/* <ShopbyCategories /> */}
+            <ShopbyCategories />
             {/* <div className="container flex justify-between mx-auto my-12">
                 <NewProducts />
                 <FeaturedProducts />
