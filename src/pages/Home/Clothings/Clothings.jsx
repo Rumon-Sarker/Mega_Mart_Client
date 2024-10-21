@@ -19,30 +19,30 @@ const Clothings = () => {
 
 
     return (
-        <section className="container mx-auto my-12  ">
-            <h2 className="text-3xl font-semibold text-black my-6">Clothing, Shoes & Accessories
-                :-  <Link to={"/shop"} className="underline ml-7 text-gray-500 text-base">View all</Link></h2>
+        <section className="container mx-auto my-12 ">
+            <h2 className="my-6 text-3xl font-semibold text-black">Clothing, Shoes & Accessories
+                :-  <Link to={"/shop"} className="text-base text-gray-500 underline ml-7">View all</Link></h2>
 
             {/* left side  */}
-            <div className="flex container mx-auto   justify-between items-center">
+            <div className="container flex items-center justify-between mx-auto">
                 <div>
                     <div className='w-[350px] h-[460px] rounded-lg bg-gradient-to-r from-blue-500 to-green-500 p-12 shadow-lg'>
-                        <div className="flex flex-col gap-5 transform transition hover:scale-105 duration-700 rounded-lg   items-center">
+                        <div className="flex flex-col items-center gap-5 transition duration-700 transform rounded-lg hover:scale-105">
                             {/* Left Side: Product Information */}
-                            <div className="flex-1 text-center text-white space-y-3">
-                                <p className="uppercase text-3xl font-bold">Sale up to </p>
+                            <div className="flex-1 space-y-3 text-center text-white">
+                                <p className="text-3xl font-bold uppercase">Sale up to </p>
                                 <h2 className="text-6xl font-bold text-yellow-400">50%</h2>
                                 <p className="text-xl font-semibold">sit amet consecSuscipit, repudiandae.</p>
 
                             </div>
 
                             {/* Right Side: Product Image with same gradient background */}
-                            <div className="flex-shrink-0  rounded-lg">
+                            <div className="flex-shrink-0 rounded-lg">
                                 <div className="relative w-[450px] h-[200px] -rotate-12 rounded-lg">
                                     <img
                                         src={menShirt} // Replace with your PNG image URL
                                         alt="menShirt"
-                                        className="absolute inset-0 w-full h-full object-contain"
+                                        className="absolute inset-0 object-contain w-full h-full"
                                     />
                                 </div>
                             </div>
@@ -55,9 +55,9 @@ const Clothings = () => {
 
                 {/* Right side */}
 
-                <div className=" shadow-lg">
+                <div className="shadow-lg ">
                     <div className="w-[400px] h-32 rounded-lg flex items-center justify-between shadow-lg">
-                        <div className=" flex flex-col gap-3 mx-auto">
+                        <div className="flex flex-col gap-3 mx-auto ">
                             <h1 className="text-3xl font-bold">FOR MAN</h1>
                             <Link className="hover:underline">Shop Now</Link>
                         </div>
@@ -66,7 +66,7 @@ const Clothings = () => {
                         </div>
                     </div>
                     <div className="w-[400px] h-32 rounded-lg flex items-center justify-between shadow-lg ">
-                        <div className=" flex flex-col gap-3 mx-auto">
+                        <div className="flex flex-col gap-3 mx-auto ">
                             <h1 className="text-3xl font-bold">FOR WOMAN</h1>
                             <Link className="hover:underline">Shop Now</Link>
                         </div>
@@ -75,7 +75,7 @@ const Clothings = () => {
                         </div>
                     </div>
                     <div className="w-[400px] h-32 rounded-lg flex items-center justify-between  shadow-lg">
-                        <div className=" flex flex-col gap-3 mx-auto">
+                        <div className="flex flex-col gap-3 mx-auto ">
                             <h1 className="text-3xl font-bold">FOR KIDS</h1>
                             <Link className="hover:underline">Shop Now</Link>
                         </div>

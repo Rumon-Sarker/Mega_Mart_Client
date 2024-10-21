@@ -31,8 +31,8 @@ const CurrentTopSells = () => {
     const filterData = data?.slice(2, 9);
 
     return (
-        <section className="flex flex-col container mx-auto">
-            <h2 className="text-3xl font-semibold text-black my-6">Current Top Sellers:-  <Link to={"/shop"} className="underline ml-7 text-gray-500 text-base">View all</Link></h2>
+        <section className="container mx-auto ">
+            <h2 className="my-6 text-3xl font-semibold text-black">Current Top Sellers:-  <Link to={"/shop"} className="text-base text-gray-500 underline ml-7">View all</Link></h2>
             <div>
                 <Swiper
                     modules={[Pagination]}
@@ -62,21 +62,21 @@ const CurrentTopSells = () => {
                 <div className='w-full h-[250px] rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 p-12 shadow-lg'>
                     <div className="w-full h-[200px]   transform transition hover:scale-105 duration-700 rounded-lg  flex  items-center">
                         {/* Left Side: Product Information */}
-                        <div className="flex-1 text-white space-y-3">
+                        <div className="flex-1 space-y-3 text-white">
                             <h2 className="text-4xl font-bold">World Fist HD LED Tv</h2>
                             <p className="text-2xl font-semibold">First Order and Take this offer.Not miss this offers</p>
-                            <button className="px-6 py-4 bg-gradient-to-r from-purple-700 to-pink-500 font-semibold rounded-full hover:bg-purple-100 transition">
+                            <button className="px-6 py-4 font-semibold transition rounded-full bg-gradient-to-r from-purple-700 to-pink-500 hover:bg-purple-100">
                                 Shop Now
                             </button>
                         </div>
 
                         {/* Right Side: Product Image with same gradient background */}
-                        <div className="flex-shrink-0  rounded-lg">
+                        <div className="flex-shrink-0 rounded-lg">
                             <div className="relative w-[250px] h-[200px] rounded-lg">
                                 <img
                                     src={ledTv} // Replace with your PNG image URL
                                     alt="ledTv"
-                                    className="absolute inset-0 w-full h-full object-contain"
+                                    className="absolute inset-0 object-contain w-full h-full"
                                 />
                             </div>
                         </div>
@@ -85,21 +85,21 @@ const CurrentTopSells = () => {
                 <div className='w-full h-[250px] rounded-lg bg-gradient-to-r from-yellow-500 to-pink-500 p-12 shadow-lg'>
                     <div className="w-full h-[200px]   transform transition hover:scale-105 duration-700 rounded-lg  flex  items-center">
                         {/* Left Side: Product Information */}
-                        <div className="flex-1 text-white space-y-3">
+                        <div className="flex-1 space-y-3 text-white">
                             <h2 className="text-4xl font-bold">Rewords Programs</h2>
                             <p className="text-xl font-semibold">Welcome to megamart and Take to Your Rewords</p>
-                            <button className="px-6 py-4 bg-gradient-to-r from-yellow-500 to-pink-500 font-semibold rounded-full hover:bg-purple-100 transition">
+                            <button className="px-6 py-4 font-semibold transition rounded-full bg-gradient-to-r from-yellow-500 to-pink-500 hover:bg-purple-100">
                                 Shop Now
                             </button>
                         </div>
 
                         {/* Right Side: Product Image with same gradient background */}
-                        <div className="flex-shrink-0  rounded-lg">
+                        <div className="flex-shrink-0 rounded-lg">
                             <div className="relative w-[250px] h-[200px] rounded-lg">
                                 <img
                                     src={rewordImg} // Replace with your PNG image URL
                                     alt="rewordImg"
-                                    className="absolute inset-0 w-full h-full object-contain"
+                                    className="absolute inset-0 object-contain w-full h-full"
                                 />
                             </div>
                         </div>

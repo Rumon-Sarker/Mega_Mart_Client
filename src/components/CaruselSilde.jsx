@@ -15,12 +15,14 @@ const CaruselSilde = ({ products }) => {
 
 
     return (
-        <div className='w-[770px] container mx-auto shadow-2xl  px-4'>
+        <div className='px-4 mx-auto shadow-2xl '>
+
             <Swiper
+
                 navigation={true}
                 modules={[Navigation]}
                 slidesPerView={3}
-                spaceBetween={20}
+                spaceBetween={10}
                 breakpoints={{
                     // when window width is >= 320px
                     320: {
@@ -39,12 +41,12 @@ const CaruselSilde = ({ products }) => {
                     },
                     // when window width is >= 1024px
                     1024: {
-                        slidesPerView: 3,
+                        slidesPerView: 4,
                         spaceBetween: 30,
                     },
                     // when window width is >= 1280px
                     1280: {
-                        slidesPerView: 3,
+                        slidesPerView: 5,
                         spaceBetween: 30,
                     },
                 }}
@@ -60,6 +62,7 @@ const CaruselSilde = ({ products }) => {
                 }
 
             </Swiper>
+
         </div>
     );
 };
