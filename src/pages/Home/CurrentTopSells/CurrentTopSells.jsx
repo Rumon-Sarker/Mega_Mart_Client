@@ -86,7 +86,7 @@ const CurrentTopSells = () => {
             </div>
 
             <div className='flex-none gap-12 my-12 space-y-3 xl:space-y-0 lgl:space-y-0 lg:flex lgl:flex'>
-                <div className='w-full h-[250px] rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 p-12 shadow-lg'>
+                <div className='w-full h-[250px] rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 lgl:p-12 lg:p-8 p-7 shadow-lg'>
                     <div className="w-full xl:h-[200px] lgl:h-[160px]   transform transition hover:scale-105 duration-700 rounded-lg flex items-center">
                         {/* Left Side: Product Information */}
                         <div className="flex-1 space-y-2 text-white">
@@ -99,7 +99,7 @@ const CurrentTopSells = () => {
 
                         {/* Right Side: Product Image with same gradient background */}
                         <div className="flex-shrink-0 rounded-lg">
-                            <div className="relative xl:w-[250px] lg:-[200px] w-[180px] h-[200px] rounded-lg">
+                            <div className="relative xl:w-[250px] lg:-[200px] w-[180px] h-[100px] rounded-lg">
                                 <img
                                     src={ledTv} // Replace with your PNG image URL
                                     alt="ledTv"
@@ -109,7 +109,7 @@ const CurrentTopSells = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-full h-[250px] rounded-lg bg-gradient-to-r from-yellow-500 to-pink-500 p-12 shadow-lg'>
+                <div className='w-full h-[250px] rounded-lg bg-gradient-to-r from-yellow-500 to-pink-500 lgl:p-12 lg:p-10 md:p-8 p-6 shadow-lg'>
                     <div className="w-full xl:h-[200px] lgl:h-[160px]   transform transition hover:scale-105 duration-700 rounded-lg  flex  items-center">
                         {/* Left Side: Product Information */}
                         <div className="flex-1 space-y-2 text-white">
@@ -122,7 +122,7 @@ const CurrentTopSells = () => {
 
                         {/* Right Side: Product Image with same gradient background */}
                         <div className="flex-shrink-0 rounded-lg">
-                            <div className="relative xl:w-[250px] lgl:w-[200px] lg:-[200px] w-[180px] h-[200px] rounded-lg">
+                            <div className="relative xl:w-[250px] lg:-[200px] w-[180px] h-[100px] rounded-lg">
                                 <img
                                     src={rewordImg} // Replace with your PNG image URL
                                     alt="rewordImg"
