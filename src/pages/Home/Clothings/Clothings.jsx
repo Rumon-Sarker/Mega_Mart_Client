@@ -17,7 +17,7 @@ const Clothings = () => {
 
     const Clothing = data?.filter((item) => item?.category === "Clothings");
 
-
+    console.log("answer", Clothing);
     return (
         <section className="container mx-auto my-12 ">
             <h2 className="my-6 text-3xl font-semibold text-black">Clothing, Shoes & Accessories

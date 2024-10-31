@@ -10,9 +10,6 @@ import ProductCard from './ProductCard';
 
 
 const CaruselSilde = ({ products }) => {
-    console.log("CaruselSilde", products);
-
-
 
     return (
         <div className='px-4 mx-auto shadow-2xl '>
@@ -41,7 +38,7 @@ const CaruselSilde = ({ products }) => {
                     },
                     // when window width is >= 1024px
                     1024: {
-                        slidesPerView: 4,
+                        slidesPerView: 5,
                         spaceBetween: 30,
                     },
                     // when window width is >= 1280px

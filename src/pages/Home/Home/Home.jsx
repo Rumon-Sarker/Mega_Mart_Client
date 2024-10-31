@@ -30,7 +30,7 @@ const Home = () => {
             {/* <Kids /> */}
             {/* <Recommended /> */}
             {/* <HomeDescText /> */}
-            {/* <WhyShop /> */}
+            <WhyShop />
 
 
         </section>
